@@ -1,0 +1,255 @@
+.welcome
+    {
+       padding-top: 20px;
+    }
+
+.welcome > div:first-of-type
+    {
+        gap:28px;
+        padding-bottom: 28px;
+    }
+
+.welcomearticle
+    {      
+        gap: 20px;
+    }
+
+.welcome h2 
+    {
+        max-width: 300px;
+    }
+
+.welcomeimg
+    {
+        max-width: 103px;
+    }
+
+.articleswelcome 
+{        
+    gap: 15px;
+    font-size: 2rem;
+}
+
+.articleswelcome p 
+{
+    max-width: 297px;
+    height: 149px;
+}
+
+.offering {
+    align-items: center;
+    padding-top: 20px;
+    gap: 36px;
+    padding-bottom: 47px;
+    background: rgb(231, 231, 231);
+}
+
+.offering > div:first-of-type
+    {                     
+        width: 100%;
+        max-width: 200px;
+        gap:15px;        
+    }
+
+.hrofferig
+    {
+        background: rgb(0, 103, 169);
+        margin-bottom: 26px;
+    }
+
+.offering1
+    {
+        max-width: 372px;                   
+        background: rgb(255, 255, 255);
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        gap:10px;
+        padding-top: 73px;
+        padding-left: 20px;
+        padding-bottom: 70px;
+
+    }
+
+.offering1 > div:first-of-type
+{
+    max-width: 512px;
+}
+
+.offering1 h3
+{
+    text-align: initial;
+    font-size: 2.4rem;
+}
+
+.offeringgeral
+{
+    justify-content: center;
+}
+
+.offeringpul
+{
+    gap:36px;   
+}
+
+.offeringpul > ul 
+{    
+    gap:36px;
+    padding-left: 39px;
+    font-weight: bold;
+    text-decoration: underline;
+    align-items: start;
+}
+
+.offeringpul > p
+{
+    max-width: 338px;
+}
+
+.pagebuttons
+    {
+        max-width: 303px;
+        gap:12px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+.next1
+    {
+        width: 23px;
+        height: 2px;
+        background: rgb(148, 203, 60);
+    }
+
+.next
+    {
+    width: 23px;
+    height: 2px;
+    background: rgb(177, 177, 177);
+    }
+
+.next:hover
+  {
+    background-color: rgb(148, 203, 60);
+  }
+
+.hrcolumn
+{
+    display: none;
+}
+
+.offeringmenu
+{
+    display: none;
+}
+
+@media (min-width: 769px)
+{
+    .hrcolumn
+    {
+        display: flex;        
+        width: 285px;
+        height: 2px;        
+    }   
+
+    .welcomeimg
+    {
+        max-width: 100%;
+    }    
+}
+
+@media (min-width: 844px)
+{
+    .welcome
+    {
+        padding-top: 30px;
+    }
+
+    .welcome h2
+    {
+        max-width: 100%;
+    }
+    
+    .offering > div:first-of-type
+    {
+        align-items: flex-start;
+        text-align: initial;       
+        max-width: 100%;
+        padding-left: 90px;
+        gap:15px;        
+    }
+
+    .pagebuttons
+    {
+        justify-content: center;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1024px)
+{
+    .welcomearticle
+    {
+        flex-direction: row;       
+        padding: 80px;
+        gap:70px;
+    }  
+    
+    .hrcolumn
+    {
+        display: flex;        
+        width: 2px;
+        height: 285px;                
+    }
+
+    .hrofferig
+    {
+        background:  rgb(148, 203, 60);
+    } 
+
+    .offeringgeral
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .offeringmenu
+    {
+        display: flex;        
+        width: 100%;
+        max-width: 442px;        
+        height: 793px;
+        font-size: 2.4rem;
+        color: rgb(255, 255, 255);
+        gap: 45px;
+        background: radial-gradient(
+          138.3% 63.93% at 50% 50.06%,
+          #0c3c5c 0%,
+          #00192b 97.23%
+        );
+        box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.25);
+        padding-top: 84px;
+        padding-bottom: 81px;
+        list-style-type: none;
+    }
+    
+    .hoverli {
+        width: 100%;
+        max-width: 464px;
+        text-align: center;
+        justify-content: center;
+      }
+      
+      .hoverli:hover {
+        background: rgb(148, 203, 60);
+        margin-left: 45px;
+        height: 86px;
+        max-height: 86px;
+        align-items: center;
+        box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.25);
+      }
+    
+    .pagebuttons
+    {
+        display: none;
+    }
+}

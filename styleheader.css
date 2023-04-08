@@ -1,0 +1,164 @@
+header 
+{
+  color: rgb(255, 255, 255);    
+} 
+
+header > div:first-of-type 
+{       
+        justify-content: space-between;        
+        padding: 21px 24px 23px;    
+}
+
+.imggroup 
+{       
+    justify-content: center;    
+}
+
+.menuheader 
+{
+    gap: 4px;
+    width: 22px;
+    height: 20px;    
+}
+
+.one,
+.two,
+.three 
+{    
+    height: 2px;
+    background: rgb(0, 0, 0);
+}
+
+.government 
+{        
+    gap: 40px;
+    padding-bottom: 87px;
+    background-image: url(./img/design_1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.government > h1 
+{
+    max-width: 366px;        
+    padding-top: 100px;
+}
+
+.government > p 
+{
+    max-width: 375px;
+    font-size: 1.5rem;
+}
+
+  .government > a 
+  {
+    color: rgb(255, 255, 255);
+    background: rgb(148, 203, 60);
+    padding: 20px 42px;
+    border: solid transparent;
+    border-radius: 5px;    
+  }
+
+  .imgsearch
+  {
+    display: none;
+  }
+
+  header nav
+  {
+    display: none;
+  }
+
+  @media (min-width: 769px) 
+{
+  .menuheader
+  {
+    display: none;
+  }
+
+  header
+  {
+    align-items: center;
+    background-image: url(./img/design_1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;       
+    padding-top: 25px;
+    color: rgb(255, 255, 255);    
+  }
+
+  .imgsearch
+  {
+    display: flex;
+  }
+
+  .imggroup
+  {
+    max-width: 209px;
+    order: -1;
+    padding-left: 39px;    
+  }
+
+
+
+  header nav
+  {
+    display: flex;
+    max-width: 450px;
+  }
+
+  header nav ul
+  {
+    gap: 45px;
+    list-style-type: none;    
+  }
+
+  header nav ul li a
+  {    
+    color: rgb(255, 255, 255);
+  }
+
+  header > div:first-of-type 
+  {   
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .government
+  {
+    background-image: none;
+    padding-top: 0;
+  }
+   
+}
+
+@media (min-width: 844px)
+{
+  .government > h1 
+{
+    max-width: 100%;    
+   
+}
+
+  .government > p
+  {
+    max-width: 450px;
+    font-size: 1.8rem;    
+  }  
+
+  .government a 
+  {   
+    padding: 16px 80px; 
+  }
+
+}
+
+@media (min-width: 1024px)
+{
+  .government > p
+  {
+    max-width: 650px;
+    font-size: 2.4rem;
+  }  
+}
